@@ -1,0 +1,185 @@
+body {
+  background-color: #000636;
+  opacity: 1;
+  font-family: 'Permanent Marker', cursive;
+}
+
+/*this the container*/
+.container {
+  height: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*this is the bar itself + input bar*/
+#text-output {
+  position: fixed;
+  margin-top: -99px;
+}
+
+.status-bar {
+  height: 75px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0px 10px;
+  display: inline-block;
+  background-color: #301860;
+}
+
+.status-bar li {
+  padding: 0px 0px;
+  color: #ff9329;
+  display: inline-block;
+}
+
+ul {
+  position: ;
+  float: left;
+  display: inline-block;
+}
+
+.timer {
+  text-transform: uppercase;
+  display: inline-block;
+  position:relative;
+  margin-left: 870px;
+  margin-top: -30px;
+}
+
+
+#prompt {
+  display: inline;
+  font-size: 18px;
+  list-style: none;
+}
+
+input {
+  height: 35px;
+  width: 1019px;
+  font-size: 16px;
+  font-family:'Permanent Marker', cursive;
+  float:left;
+  padding: 0px 0px;
+  border: 1px solid #000636;
+  background-color: #604878;
+  opacity: 0.8;
+  color: navajowhite;
+}
+
+
+
+.gameboard {
+  margin-top: 100px;
+  height: 900px;
+  width: 1000px;
+}
+
+
+#top-row {
+  margin-top: 13px;
+}
+
+.row {
+margin-left: 200px;
+margin-right: 200px;
+height: 293px;
+width: 998px;
+float: left;
+}
+
+
+
+.room {
+  overflow: auto;
+  margin: 0 auto;
+  height: 289px;
+  width: 327px;
+  border: 1px solid #ff9329;
+  display: inline-block;
+}
+
+
+#room-0 {
+  background: url("img/room-1.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#room-1 {
+    background: url("img/room-2.jpg");
+    background-size: 163%;
+    background-position-x: -70px;
+    background-position-y: -30px;
+    background-repeat: no-repeat;
+}
+
+#room-2 {
+    background: url("img/room-3.jpg");
+    background-size: 187%;
+    background-repeat: no-repeat;
+    background-position-x: -193px;
+    background-position-y: 23px;
+}
+
+#room-3 {
+    background: url("img/room-4.jpg");
+    background-size: 117%;
+    background-repeat: no-repeat;
+}
+
+#room-4 {
+    background: url("img/room-5.jpg");
+    background-size: 104%;
+    background-position-y: -87px;
+    background-repeat: no-repeat;
+}
+
+#room-5 {
+    background: url("img/room-6.jpg");
+    background-size: 137%;
+    background-position-x: -50px;
+    background-repeat: no-repeat;
+}
+
+#room-6 {
+    background: url("img/room-7.jpg");
+    background-size: 131%;
+    background-position-x: -51px;
+    background-repeat: no-repeat;
+}
+
+#room-7 {
+    background: url("img/room-8.jpg");
+    background-size: 116%;
+    background-position-x: -35px;
+    background-repeat: no-repeat;
+}
+
+#room-8 {
+    background: url("img/room-9.jpg");
+    background-size: 236%;
+    background-repeat: no-repeat;
+}
+
+.room {
+  transition: opacity .5s;
+  opacity: 0.3;
+}
+
+#protagonist {
+  position: absolute;
+  transition-duration: 1s;
+  height: 25px;
+  width: 25px;
+  background: red;
+  border-radius: 25px;
+  opacity: 1;
+  top: 280px;
+  left: 500px;
+}
+
+#protagonist.blink {
+  opacity: 0.4;
+  transition: opacity 1.5s ease-in-out;
+}
+

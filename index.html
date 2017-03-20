@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My Cool GitHub Pages Page</title>
-  </head>
-  <body>
-    <h1>THIS IS A ASHOEW</h1>
-    <img src="http://www.mrwallpaper.com/wallpapers/shoebill-bird-1024x1024.jpg"/>
-  </body>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Houseparty Escape</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class='container'>
+    <div id='text-output'>
+      <ul class='status-bar'>
+        <li id="prompt"></li>
+      </ul>
+      <input id='text-input'></input>
+    <ul class='timer'>
+      <li class="timer"></li>
+    </ul>
+  </div>
+  <div class='gameboard'>
+    <div class='row' id='top-row'>
+      <div class='room' id='room-0'></div>
+      <div class='room' id='room-1'></div>
+    </div>
+    <div class='row'>
+      <div class='room' id='room-2'></div>
+      <div class='room' id='room-3'></div>
+    </div>
+    <div class='row'>
+      <div class='room' id='room-4'></div>
+      <div class='room' id='room-5'></div>
+    </div>
+    <div class='row'>
+      <div class='room' id='room-6'></div>
+      <div class='room' id='room-7'></div>
+    </div>
+    <div class='row'>
+      <div class='room' id='room-8'></div>
+    </div>
+    <div id="protagonist"></div>
+    </div>
+  <!-- bottom of gameboard -->
+  </div>
+<!-- bottom of container -->
+</div>
+</body>
+<script src='jquery-3.1.0.min.js'></script>
+<script type='text/javascript', src='script.js'></script>
 </html>
